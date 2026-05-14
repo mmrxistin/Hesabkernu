@@ -1,0 +1,36 @@
+# Bismillahir Rahmanir Rahim
+# Elhamdulillah, Elhamdulillah, Elhamdulillah
+# Elhamdulillahi Rabbil Alamin
+# Es selatu ve selamun ala Resulina Muhammedin
+# SuphanAllah, Elhamdulillah, Allahu Akbar
+# La ilahe illallah, Muhammaden Resulullah
+# Allah u Ekber, Allahu Akbar, Allahu Akbar, La ilahe illallah
+# Hasbuna Allahu ve ni'mel Vekil, ve ni'mel mevla
+
+# derleme çıktıları
+bin/
+obj/
+
+# kullanıcı ayarları
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# paketler
+*.nupkg
+packages/
+
+# log dosyaları
+*.log
+
+# geçici dosyalar
+*.tmp
+*.temp
+
+# ide ayarları
+.vs/
+.idea/
+
+# test sonuçları
+testresult*/

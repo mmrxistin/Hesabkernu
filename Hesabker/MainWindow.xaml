@@ -1,0 +1,85 @@
+﻿<!-- 
+Bismillahir Rahmanir Rahim
+Elhamdulillah, Elhamdulillah, Elhamdulillah
+Elhamdulillahi Rabbil Alamin
+Es selatu ve selamun ala Resulina Muhammedin
+SuphanAllah, Elhamdulillah, Allahu Akbar
+La ilahe illallah, Muhammaden Resulullah
+Allah u Ekber, Allahu Akbar, Allahu Akbar, La ilahe illallah
+Hasbuna Allahu ve ni'mel Vekil, ve ni'mel mevla
+-->
+<!-- BismillahirRahmanirRahim
+     Elhamdulillahirabbulalemin
+    Esselatu vesselamu ala rasulina Muhammedin
+     SuphanAllah ve Bihamdihi Velhamdulillah
+     Ve La ilahe ill ALLAH
+     ALLAH U EKBER VELİLLAHİL HAMD-->
+<Window x:Class="MVVM_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM_Example"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+	<!-- BismillahirRahmanirRahim
+     Elhamdulillahirabbulalemin
+     Esselatu vesselamu ala rasulina Muhammedin
+     SuphanAllah ve Bihamdihi Velhamdulillah
+     Ve La ilahe ill ALLAH
+     ALLAH U EKBER VELİLLAHİL HAMD-->
+
+
+	<Window.Resources>
+		<!-- Menü Buton Stili -->
+		<Style x:Key="MenuButtonStyle" TargetType="Button">
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="Background" Value="#34495E"/>
+			<Setter Property="FontSize" Value="16"/>
+			<Setter Property="Margin" Value="5"/>
+			<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		</Style>
+	</Window.Resources>
+
+	<Grid>
+		<!-- Ana Grid yapısı: Üst bar, yan menü, içerik -->
+		<Grid.RowDefinitions>
+			<RowDefinition Height="60"/>
+			<!-- Üst bar -->
+			<RowDefinition Height="*"/>
+			<!-- İçerik -->
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="220"/>
+			<!-- Yan menü -->
+			<ColumnDefinition Width="*"/>
+			<!-- İçerik alanı -->
+		</Grid.ColumnDefinitions>
+
+		<!-- Üst Bar -->
+		<DockPanel Grid.Row="0" Grid.ColumnSpan="2" Background="#2C3E50">
+			<TextBlock Text="Emir Oğlu Demir Çelik ERP Dashboard"
+				   Foreground="White" FontSize="22"
+				   VerticalAlignment="Center" Margin="15,0"/>
+		</DockPanel>
+
+		<!-- Yan Menü -->
+		<StackPanel Grid.Row="1" Grid.Column="0" Background="#34495E">
+			<Button Content="📊 Genel Bakış" Style="{StaticResource MenuButtonStyle}" Command="{Binding DashboardCommand}"/>
+			<Button Content="💼 Muhasebe" Style="{StaticResource MenuButtonStyle}" Command="{Binding MuhasebeCommand}"/>
+			<Button Content="📦 Stok Yönetimi" Style="{StaticResource MenuButtonStyle}" Command="{Binding StokCommand}"/>
+			<Button Content="🤝 Cari Hesaplar" Style="{StaticResource MenuButtonStyle}" Command="{Binding CariCommand}"/>
+			<Button Content="🏗️ İnşaat Projeleri" Style="{StaticResource MenuButtonStyle}" Command="{Binding ProjeCommand}"/>
+			<Button Content="📈 Satış" Style="{StaticResource MenuButtonStyle}" Command="{Binding SatisCommand}"/>
+		</StackPanel>
+
+		<!-- İçerik Alanı -->
+		<Grid Grid.Row="1" Grid.Column="1" Background="White">
+			<TextBlock
+				   FontSize="20" Margin="20"/>
+			<!-- Burada DataGrid, Chart veya UserControl ile modül içerikleri gösterilebilir -->
+		</Grid>
+	</Grid>
+</Window>

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\mmrxistin\\Hesabkernu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBAF2132-4E08-60D9-C03A-9D9E61005A1D}|Hesabker\\Hesabker.csproj|c:\\users\\asus\\source\\repos\\mmrxistin\\hesabkernu\\hesabker\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CBAF2132-4E08-60D9-C03A-9D9E61005A1D}|Hesabker\\Hesabker.csproj|solutionrelative:hesabker\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\mmrxistin\\Hesabkernu\\Hesabker\\.gitignore",
+              "RelativeDocumentMoniker": "Hesabker\\.gitignore",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\mmrxistin\\Hesabkernu\\Hesabker\\.gitignore",
+              "RelativeToolTip": "Hesabker\\.gitignore",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-14T08:34:49.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
